@@ -2,7 +2,7 @@
     "name": "@cidekar/browser-email-share",
     "version": "1.0.0",
     "description": "Create mailto links and send email using an email client.",
-    "main": "dist/deploy.common.js",
+    "main": "dist/emailshare.js",
     "author": "Cidekar",
     "license": "Apache-2.0",
     "homepage": "https://github.com/cidekar/browser-email-share",
