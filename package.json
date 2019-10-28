@@ -1,10 +1,16 @@
 {
     "name": "@cidekar/browser-email-share",
     "version": "1.0.0",
-    "description": "Module to handel source code deployment",
+    "description": "Create mailto links and send email using an email client.",
     "main": "dist/deploy.common.js",
     "author": "Cidekar",
     "license": "Apache-2.0",
+    "homepage": "https://github.com/cidekar/browser-email-share",
+    "bugs": "https://github.com/cidekar/browser-email-share/issues",
+    "repository": {
+        "url": "https://github.com/cidekar/browser-email-share",
+        "type": "git"
+    },
     "scripts": {
         "build": "./node_modules/.bin/eslint **/*.ts -c eslint-build.config && rollup --config ./config.js --environment BUILD_TARGET:web-js",
         "docs": "./node_modules/.bin/typedoc --disableOutputCheck --ignoreCompilerErrors --excludeExternals --out docs src --exclude \"node_modules/**/*\" --module umd --theme minimal",
